@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(81, 81, 232);
+}
+.flex{
+    display: flex; 
+    justify-content: space-evenly;  
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    margin-top: 4%;
+    background-color: blueviolet;
+}
+.img2{
+    margin-top: 4%;
+    background-color: blue;
+    height: 400px;
+}
+.box2{
+    margin-top: 1%;
+    height: 85vh;
+    width: 55%;
+    justify-content: right;
+
+}
+p{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
